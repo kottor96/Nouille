@@ -56,5 +56,9 @@
 
 #folio{
     display: flex;
-    
+    flex-direction: column;
+}
+#contenufolio{
+    display: flex;
+    flex-direction: row;
 }
