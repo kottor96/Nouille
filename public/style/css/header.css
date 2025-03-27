@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+body{
+    margin: 0;
+    font-family: sans-serif, Cupidus Ultrabold;
+    
+}
+header{
+    height: 534px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(128, 0, 128, 0.116),white),url("../../assets/img/header.jpg") ;
+}
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Baloo 2", sans-serif;
+}
+header h2{
+    font-family: "Baloo 2", sans-serif;
+}
