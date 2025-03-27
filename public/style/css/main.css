@@ -16,6 +16,15 @@
 #quiSuisJe{
     width: 40%;
 }
-#quiSuiJe button{
+#quiSuisJe a{
+    text-decoration: none;
     background-color: white;
+    color: rgb(105, 90, 166);
+    border: 1px solid rgb(105, 90, 166);
+    border-radius: 20px;
+    padding: 5px;
 }
+#quiSuisJe p{
+    margin-bottom: 8%;
+}
+/* section 2 Service */
