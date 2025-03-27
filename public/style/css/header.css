@@ -1,21 +1,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
-
-body{
-    margin: 0;
-    font-family: sans-serif, Cupidus Ultrabold;
-    
-}
 header{
-    height: 534px;
+    height: 572px;
     background-size: cover;
+    background-position: 50% 40%;
     background-image: linear-gradient(rgba(128, 0, 128, 0.116),white),url("../../assets/img/header.jpg") ;
 }
+header div{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 110px;
+    left: 32%;
+}
 h1{
-    font-size: 60px;
+    font-size: 99px;
     font-weight: 800;
     font-family: "Baloo 2", sans-serif;
+    line-height: 100px;
+    margin: 0;
+    color: rgb(66, 70, 78);
 }
 header h2{
+    font-family: "Baloo 2", sans-serif;
+    font-size: 70px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: rgb(88, 89, 96);
+}
+header p{
     font-family: "Baloo 2", sans-serif;
 }
