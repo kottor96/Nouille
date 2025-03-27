@@ -75,3 +75,16 @@
     width: 100%;
 }
 /* Section prix */
+#contenu_prix{
+    display: flex;   
+}
+.carte{
+    height: 400px;
+    width: 600px;
+}
+#section_prix{
+    height: 1000px;
+}
+.carte div:first-of-type{
+
+}
