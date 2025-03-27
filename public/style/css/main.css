@@ -80,9 +80,24 @@
     justify-content: center;
     align-items: center;
 }
+#titre_prix{
+    text-align: center;
+}
 .carte{
-    height: 400px;
-    width: 600px;
+    height: 560px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    border: 1px rgb(238, 240, 242) solid;
+}
+.carte ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
 }
 #section_prix{
     height: 1000px;
@@ -94,4 +109,7 @@
 .carte img{
     height: 100%;
     width: 100%;
+}
+.red{
+    color: red;
 }
