@@ -77,6 +77,8 @@
 /* Section prix */
 #contenu_prix{
     display: flex;   
+    justify-content: center;
+    align-items: center;
 }
 .carte{
     height: 400px;
@@ -86,5 +88,10 @@
     height: 1000px;
 }
 .carte div:first-of-type{
-
+    height: 100px;
+    width: auto;
+}
+.carte img{
+    height: 100%;
+    width: 100%;
 }
