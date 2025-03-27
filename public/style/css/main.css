@@ -28,3 +28,26 @@
     margin-bottom: 8%;
 }
 /* section 2 Service */
+#service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contenuService{
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+}
+#contenuService>div{
+    width: 278px;
+    height: 251px;
+    border: 1px rgb(222, 226, 230) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contenuService img{
+    height: 50px;
+    width: 50px;
+}
