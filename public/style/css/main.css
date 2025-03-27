@@ -64,10 +64,11 @@
 #contenu_folio{
     display: flex;
     flex-direction: row;
+    gap: 33px;
 }
 .folio{
-    height: 300px;
-    width: 300px;
+    height: 384px;
+    width: 385px;
 }
 .folio img{
     height: 100%;
