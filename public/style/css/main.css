@@ -1,13 +1,21 @@
+/* section 1 About Me */
 #profil{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#image{
-    width: 400px;
-    height: 450px;
+    gap:2%;
 }
 #profil_image{
+    width: 450px;
+    height: 450px;
+}
+#profil_image img{
     height: 100%;
     width: 100%;
+}
+#quiSuisJe{
+    width: 40%;
+}
+#quiSuiJe button{
+    background-color: white;
 }
