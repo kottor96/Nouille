@@ -1,4 +1,18 @@
 footer{
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+}
+footer form{
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    border: 2px solid rgb(229, 232, 235);
+    resize: none;
+}
+form textarea{
+    box-sizing: border-box;
+    border: 2px solid rgb(229, 232, 235);
+    resize: none;
 }
