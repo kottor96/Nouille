@@ -1,4 +1,4 @@
-/* footer{
+footer{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -16,4 +16,4 @@ footer div div{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-} */
+}
