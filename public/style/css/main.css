@@ -230,6 +230,7 @@
     align-items: center;
     height: 400px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 #titre_contact h3,#titre_contact h4{
     line-height: 0.5px;

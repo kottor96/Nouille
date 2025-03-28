@@ -7,5 +7,13 @@ footer{
 footer div{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+    gap: 5px;
+}
+footer div div{
+    border: 2px solid rgb(108, 117, 125);
+    color: rgb(108, 117, 125);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
