@@ -117,14 +117,19 @@
     text-align: center;
 }
 .carte{
-    height: 560px;
+    height: 570px;
     width: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    gap: 50px;
+    gap: 0;
     border: 1px rgb(238, 240, 242) solid;
+}
+.carte h3{
+    font-size: 30px;
+    margin: 0;
 }
 .carte ul{
     list-style: none;
@@ -138,6 +143,7 @@
 .carte div:first-of-type{
     height: 100px;
     width: auto;
+    padding-top: 10px;
 }
 .carte img{
     height: 100%;
