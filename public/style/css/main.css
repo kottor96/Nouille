@@ -57,8 +57,8 @@
     gap: 33px;
 }
 #contenuService>div{
-    width: 278px;
-    height: 251px;
+    width: 20vw;
+    height: 20vw;
     border: 1px rgb(222, 226, 230) solid;
     display: flex;
     flex-direction: column;
@@ -98,8 +98,8 @@
     gap: 33px;
 }
 .folio{
-    height: 384px;
-    width: 385px;
+    height: 20vw;
+    width: 20vw;
 }
 .folio img{
     height: 100%;
