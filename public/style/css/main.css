@@ -79,6 +79,8 @@
     display: flex;   
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 #titre_prix{
     text-align: center;
@@ -121,4 +123,22 @@
     height: 42px;
     width: 110px;
     border-radius: 2px;
+}
+#footer_prix{
+    background-color: rgb(105, 90, 166);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height:  150px;
+    line-height: 20px;
+    font-size: 20px;
+}
+#footer_prix div:first-child{
+    position: absolute;
+    left:  280px;
+}
+#footer_prix div:nth-child(2){
+    position: absolute;
+    right: 450px;
 }
