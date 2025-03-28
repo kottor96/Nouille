@@ -1,5 +1,11 @@
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
