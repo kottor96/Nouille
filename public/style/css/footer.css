@@ -17,3 +17,8 @@ footer div div{
     width: 50px;
     border-radius: 50%;
 }
+@media (max-width: 720px) {
+    footer div div{
+        flex-wrap: wrap;
+    }
+}

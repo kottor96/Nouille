@@ -158,7 +158,7 @@
     background-color: rgb(105, 90, 166);
     border: none;
     height: 42px;
-    width: 110px;
+    min-width: 110px;
     border-radius: 2px;
 }
 #footer_prix{
@@ -195,6 +195,14 @@
 #footer_prix div:first-child p:first-child{
     font-size: 30px;
     font-weight: 700;
+}
+@media (max-width:540px){
+    #contenu_prix{
+        flex-wrap: wrap;
+    }
+    .carte{
+        width: 200px;
+    }
 }
 /* Section test monial */
 #section_monial{
@@ -234,6 +242,12 @@
     color: rgb(105, 90, 166);
     font-weight: bolder;
     font-family: "Baloo 2", sans-serif;
+}
+@media (max-width:540px){
+    #contenu_monial{
+        flex-wrap: wrap;
+        background-color: red;
+    }
 }
 /*section blog */
 #section_blog{
