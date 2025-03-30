@@ -22,3 +22,13 @@ nav div:nth-of-type(2){
     display: flex;
     gap: 10px;
 }
+@media (max-width:620px) {
+    nav{
+        margin: 0;
+    }
+}
+@media (max-width:540px){
+    div:nth-of-type(2){
+        flex-wrap: wrap;
+    }
+}
