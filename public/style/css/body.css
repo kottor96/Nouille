@@ -5,7 +5,15 @@ body{
 h3{
     font-family: "Baloo 2", sans-serif;
     color: rgb(105, 90, 166);
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
 }
 h4{
     color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 0;
+}
+section{
+    margin: 10vh 0;
 }
