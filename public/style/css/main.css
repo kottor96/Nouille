@@ -45,6 +45,15 @@
 #quiSuisJe p{
     margin-bottom: 8%;
 }
+@media (max-width:560px) {
+    #profil{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    #quiSuisJe{
+        width: 100%;
+    }
+}
 /* section 2 Service */
 #service{
     display: flex;
@@ -101,10 +110,13 @@
 #contenu_folio{
     display: flex;
     flex-direction: row;
-    gap: 33px;
+    justify-content: center;
+    gap:3vw;
 }
 .folio{
     height: 20vw;
+    min-width: 200px;
+    min-height: 200px;
     width: 20vw;
 }
 .folio img{
@@ -144,7 +156,8 @@
     line-height: 30px;
 }
 #section_prix{
-    height: 1000px;
+    min-height: 1000px;
+    padding-bottom: 100px
 }
 .carte div:first-of-type{
     height: 100px;
@@ -252,7 +265,7 @@
     }
 
     .carte_monial {
-        width: 90%;
+        width: 80%;
     }
 }
 @media (max-width:540px){
@@ -309,10 +322,11 @@
     flex-direction: column;
     display: flex;
     align-items: center;
+    width: 100vw;
 }
 #section_contact form{
     height: 300px;
-    width: 500px;
+    width: 60%;
     box-sizing: border-box;
     resize: none;
 }

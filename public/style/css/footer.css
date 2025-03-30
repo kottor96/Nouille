@@ -6,6 +6,7 @@ footer{
 }
 footer div{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -18,7 +19,7 @@ footer div div{
     border-radius: 50%;
 }
 @media (max-width: 720px) {
-    footer div div{
+    footer div{
         flex-wrap: wrap;
     }
 }
