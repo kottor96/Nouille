@@ -8,9 +8,24 @@
     <link rel="stylesheet" href="./public/style/css/header.css">
     <link rel="stylesheet" href="./public/style/css/main.css">
     <link rel="stylesheet" href="./public/style/css/footer.css">
+    <link rel="stylesheet" href="./public/style/css/nav.css">
     <script src="https://kit.fontawesome.com/1ee2d1841d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav>
+        <div>
+            <a href="#">Nouilles</a>
+        </div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">PortFolio</a>
+            <a href="#">Testmondial</a>
+            <a href="#">Blog</a>       
+            <a href="#">Contact</a>       
+            <span id="grand"><a href="#">X</a></span>      
+        </div>
+    </nav>
     <header>
         <div>
             <h2>HI !</h2>
@@ -199,7 +214,7 @@
                     </div>
                     <div>
                         <h3>Consectetur adipiscing elit</h3>
-                        <p>By Admin <span class="coeur">&#9825;</span>&bull; 234<span classe="bull"><i class="fa-solid fa-comment">123</i></span></p>
+                        <p>By Admin <span class="coeur">&#9825;</span> 234 <span classe="bull"><i class="fa-solid fa-comment"></i> 123 </span></p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit delectus voluptates, repellat ipsum culpa id delenit Rerum debitis facilis accusantium neque numquam mollitia mad quasi distinctio</p>
                         <p>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</p>
                         <p>Magnam in repellat enim harum omnis aperiam Explicabo illo, commodi dolor blandi cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecat</p>
@@ -212,7 +227,7 @@
                     </div>
                     <div>
                         <h3>Explicabo</h3>
-                        <p>By Admin <span class="coeur">&#9825;</span>&bull;<span classe="bull"><i class="fa-solid fa-comment"></i></span></p>
+                        <p>By Admin <span class="coeur">&#9825;</span> 456 <span classe="bull"><i class="fa-solid fa-comment"></i> 264 </span></p>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro <br>
                             quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? <br>
@@ -223,40 +238,43 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
-        <div>
-            <h4>How can you communicate?</h4>
-            <h3>Contact Me</h3>
-            <form action="">
-                <textarea name="message" id="message" placeholder="Write Something" ></textarea>
-                <button type="button">Send message</button>
-            </form>
-        </div>
-        <hr>
-        <div>
-            <p>Copyright 2022 &copy; DevCRUD</p>
+        <section id="section_contact">
             <div>
-                <div>
-                    <i class="fa-brands fa-facebook"></i>
+                <div id="titre_contact">
+                    <h4>How can you communicate?</h4>
+                    <h3>Contact Me</h3>
                 </div>
-                <div>
-                    <i class="fa-brands fa-twitter"></i>
-                </div>
-                <div>
-                    <i class="fa-brands fa-google-plus-g"></i>
-                </div>
-                <div>
-                    <i class="fa-brands fa-pinterest"></i>
-                </div>
-                <div>
-                    <i class="fa-brands fa-instagram"></i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-wifi"></i>
-                </div>
+                <form action="">
+                    <textarea name="message" id="message" placeholder="Write Something" ></textarea>
+                    <button type="button">Send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright 2022 &copy; DevCRUD</p>
+        <div>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-google-plus-g"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-wifi"></i>
             </div>
         </div>
     </footer>
+    
 </body>
 </html>
