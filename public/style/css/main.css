@@ -214,7 +214,7 @@
 .carte_monial{
     position: relative;
     height: 175px;
-    width: 542px;
+    width:40%;
     border: 1px rgb(226, 230, 233) solid;
     /* rgb(226, 230, 233) */
 }
