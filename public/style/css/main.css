@@ -249,6 +249,10 @@
     flex-direction: column;
     gap: 25px;
 }
+#contenu_blog h3{
+    text-align: left;
+    font-size: 20px;
+}
 .carte_blog{
     display: flex;
     flex-direction: row;
