@@ -351,6 +351,15 @@
     width: 24vw;
     height: 24vw;
 }
+@media (max-width: 600px) {
+    .carte_blog{
+        flex-wrap: wrap;
+    }
+    .carte_blog img{
+        width: 80%;
+        height: auto;
+    }
+}
 /* section contact Me */
 #section_contact{
     display: flex;
