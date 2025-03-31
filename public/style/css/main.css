@@ -45,7 +45,11 @@
 #quiSuisJe p{
     margin-bottom: 8%;
 }
-@media (max-width:560px) {
+/* responsive */
+@media (max-width:850px) {
+    #profil{
+        justify-content: center;
+    }
     #profil{
         flex-wrap: wrap;
         margin: 0;
@@ -91,6 +95,7 @@
     font-size: 20px;
     margin: 0;
 }
+/* responsive */
 @media (max-width:640px){
     #contenuService>div{
         width: 100px;
